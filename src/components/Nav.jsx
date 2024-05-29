@@ -1,33 +1,34 @@
 
+import { Link } from "react-scroll"
 
 
 const Nav = () => {
     const content = <>
-        <div className="">
+        <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
 
-            <ul>
+            <ul className="text-center text-xl p-20">
 
-                <link to="Home">
-                    <li>Home</li>
-                </link>
-                <link to="Partners">
-                    <li>Partners</li>
-                </link>
-                <link to="Services">
-                    <li>Services</li>
-                </link>
-                <link to="Industries">
-                    <li>Industries</li>
-                </link>
-                <link to="Training">
-                    <li>Training</li>
-                </link>
-                <link to="About">
-                    <li>About</li>
-                </link>
-                <link to="Contact">
-                    <li>Contact</li>
-                </link>
+                <Link to="Home">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
+                </Link>
+                <Link to="Partners">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Partners</li>
+                </Link>
+                <Link to="Services">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Services</li>
+                </Link>
+                <Link to="Industries">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Industries</li>
+                </Link>
+                <Link to="Training">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Training</li>
+                </Link>
+                <Link to="About">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
+                </Link>
+                <Link to="Contact">
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
+                </Link>
                 
                  
 
@@ -47,27 +48,27 @@ const Nav = () => {
             <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
                 <div className="flex-10">
                 <ul className="flex gap-8 mr-16 text-[18px]">
-                <link to="Home">
+                <Link to="Home">
                     <li>Home</li>
-                </link>
-                <link to="Partners">
+                </Link>
+                <Link to="Partners">
                     <li>Partners</li>
-                </link>
-                <link to="Services">
+                </Link>
+                <Link to="Services">
                     <li>Services</li>
-                </link>
-                <link to="Industries">
+                </Link>
+                <Link to="Industries">
                     <li>Industries</li>
-                </link>
-                <link to="Training">
+                </Link>
+                <Link to="Training">
                     <li>Training</li>
-                </link>
-                <link to="About">
+                </Link>
+                <Link to="About">
                     <li>About</li>
-                </link>
-                <link to="Contact">
+                </Link>
+                <Link to="Contact">
                     <li>Contact</li>
-                </link>
+                </Link>
                 
                 </ul>
             </div>
