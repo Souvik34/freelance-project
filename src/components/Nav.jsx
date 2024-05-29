@@ -8,25 +8,25 @@ const Nav = () => {
 
             <ul className="text-center text-xl p-20">
 
-                <Link to="Home">
+                <Link spy={true} smooth={true} to="Home">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
                 </Link>
-                <Link to="Partners">
+                <Link spy={true} smooth={true} to="Partners">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Partners</li>
                 </Link>
-                <Link to="Services">
+                <Link spy={true} smooth={true}  to="Services">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Services</li>
                 </Link>
-                <Link to="Industries">
+                <Link spy={true} smooth={true} to="Industries">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Industries</li>
                 </Link>
-                <Link to="Training">
+                <Link spy={true} smooth={true} to="Training">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Training</li>
                 </Link>
-                <Link to="About">
+                <Link  spy={true} smooth={true} to="About">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
                 </Link>
-                <Link to="Contact">
+                <Link  spy={true} smooth={true} to="Contact">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
                 </Link>
                 
