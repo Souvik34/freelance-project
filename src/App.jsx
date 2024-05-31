@@ -1,11 +1,11 @@
-import Nav from "./components/Navbar"
-import Home from "./components/Home"
-import Industries from "./components/Industries"
-import About from "./components/About";
-import Training from "./components/Training"
-import Services from "./components/Serv"
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Nav from "./components/Navbar/Nav";
+import Home from "./components/Home/Home"
+import Industries from "./components/Industries/Industries"
+import About from "./components/About/About";
+import Training from "./components/Training/Training"
+import Services from "./components/Serv/Services"
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     
