@@ -49,7 +49,7 @@ const Nav = () => {
     </>
     return (
         <nav>
-            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4">
+            <div className="h-10vh flex justify-between z-50 text-white lg:py-10 px-20 py-4">
 
             <div className="flex items-center flex-1">
                 <div>
