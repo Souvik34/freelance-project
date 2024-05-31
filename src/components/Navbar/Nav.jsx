@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import "./Nav.css"
-import {menus} from "../../data"
+import{ menus } from 'src/Data.jsx'
 import { Link } from 'react-scroll'
 import { FaArrowRightLong } from 'react-icons/fa6'
 const Nav = () => {
