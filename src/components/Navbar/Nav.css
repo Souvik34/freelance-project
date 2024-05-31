@@ -1,0 +1,35 @@
+.navbar
+
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background: var(--color-ui-secondary);
+}
+
+.navbar .column,
+.navbar .menu__group
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar .menu__group .item
+
+{
+    color: var(--color-muted);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.navbar .menu__group .item:hover
+{
+    color: var(--color-text);
+}
